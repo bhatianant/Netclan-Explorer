@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Default state -->
+    <item android:state_checked="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <!-- Default background color -->
+                    <solid android:color="@color/tabcolour" /> <!-- Set your tab color -->
+                    <!-- Default border color -->
+                    <stroke android:width="2dp" android:color="@color/tabcolour" /> <!-- Set your tab color -->
+                    <corners android:radius="4dp" /> <!-- Rounded corners -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- Selected state -->
+    <item android:state_checked="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <!-- Selected background color -->
+                    <solid android:color="@color/tabcolour" /> <!-- Set your tab color -->
+                    <!-- Selected border color -->
+                    <stroke android:width="2dp" android:color="@color/tabcolour" /> <!-- Set your tab color -->
+                    <corners android:radius="4dp" /> <!-- Rounded corners -->
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

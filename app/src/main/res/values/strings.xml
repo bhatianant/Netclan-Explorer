@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Netclan Explorer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="name">Navidation Drawer sample</string>
+    <string name="OpenDrawer">Open navigation drawer</string>
+    <string name="CloseDrawer">Close navigation drawer</string>
+    <string name="refine">Refine</string>
+    
+    
+    <string name="select">SpenearRefine</string>
+    <string name="todo">TODO</string>
+    <string name="save_amp_explore"><![CDATA[Save & Explore]]></string>
+    <string name="text">Refine</string>
+    <string-array name="select">
+        <item>Avaliable | Hey Let Us Connect</item>
+        <item>Away | Stay Discrete And Watch</item>
+        <item>Busy | Do Not Distrub | Will Catch Up Later</item>
+        <item>SOS | Emergency! Need Assistance! HELP</item>
+    </string-array>
+</resources>
